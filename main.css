@@ -56,13 +56,22 @@
 
     /* Phase 3 */
 
-    /* Your code here 
+    /* Your code here */
+    width: 33%;
+    display: column;
+    /* justify-content: column; */
+    align-items: flex-end;
+
 }
 
 .example4 {
     /* Phase 4 - Part 1 of 2 */
 
-    /* Your code here 
+    /* Your code here */
+    display: flex;
+    /* flex-direction: column; */
+    
+
 }
 
 .sidebar {
@@ -71,11 +80,14 @@
 
     /* Phase 4 - Part 2 of 2 */
 
-    /* Your code here 
+    /* Your code here */
+    width: 10%
 }
 .content-area {
     background-color: #E8EFF0;
     padding: 8px;
+    display: flex;
+    align-items: flex-start;
 }
 
 blockquote {
