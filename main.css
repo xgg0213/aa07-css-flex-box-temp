@@ -24,6 +24,7 @@
     /* Your code here */
     font-size: 16px;
     font-weight: bold;
+    gap: 8px;
 }
 
 .example2 > button {
@@ -46,6 +47,7 @@
     display: flex;
     flex-direction: row;
     gap: 8px;
+    /* border: black 2px solid; */
 }
 
 .example3 > div {
@@ -58,10 +60,13 @@
 
     /* Your code here */
     width: 33%;
-    display: column;
-    /* justify-content: column; */
-    align-items: flex-end;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .example4 {
@@ -69,7 +74,6 @@
 
     /* Your code here */
     display: flex;
-    /* flex-direction: column; */
     
 
 }
